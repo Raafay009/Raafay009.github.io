@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Abdur Raafay - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">AR</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#community">Community</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-profile">
+                <div class="hero-avatar"><img src="profile.jpeg" alt="Abdur Raafay" onerror="this.style.display='none';this.parentElement.textContent='AR'"></div>
+                <div class="hero-status"><span class="status-dot"></span> Available for opportunities</div>
+            </div>
+            <h1 class="hero-name">Abdur Raafay</h1>
+            <p class="hero-title">Software Engineer &middot; Application Security &middot; IT Governance</p>
+            <p class="hero-subtitle">Managing a PKR 600M+ project portfolio across government and enterprise clients. I turn complex requirements into secure, scalable systems &mdash; then use data to make them better. Delivered on time, every time.</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                <a href="#experience" class="btn btn-outline">View My Work</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/Raafay009" target="_blank" rel="noopener" aria-label="GitHub">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <a href="https://linkedin.com/in/ma-raafay" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="https://medium.com/@abdurraafay" target="_blank" rel="noopener" aria-label="Medium">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+                </a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-card-stack">
+                <div class="hero-metric-card metric-1">
+                    <span class="metric-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </span>
+                    <div>
+                        <span class="metric-number">6+</span>
+                        <span class="metric-label">Active Projects</span>
+                    </div>
+                </div>
+                <div class="hero-metric-card metric-2">
+                    <span class="metric-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    </span>
+                    <div>
+                        <span class="metric-number">600M+</span>
+                        <span class="metric-label">PKR Portfolio Value</span>
+                    </div>
+                </div>
+                <div class="hero-metric-card metric-3">
+                    <span class="metric-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </span>
+                    <div>
+                        <span class="metric-number">100+</span>
+                        <span class="metric-label">Students Mentored</span>
+                    </div>
+                </div>
+                <div class="hero-metric-card metric-4">
+                    <span class="metric-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </span>
+                    <div>
+                        <span class="metric-number">100%</span>
+                        <span class="metric-label">On-Time Delivery</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-card-row">
+                <div class="hero-metric-card metric-5">
+                    <span class="metric-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                    </span>
+                    <div>
+                        <span class="metric-number metric-text">Product & Growth</span>
+                    </div>
+                </div>
+                <div class="hero-metric-card metric-6">
+                    <span class="metric-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </span>
+                    <div>
+                        <span class="metric-number metric-text">Cross-Functional Leadership</span>
+                    </div>
+                </div>
+                <div class="hero-metric-card metric-7">
+                    <span class="metric-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </span>
+                    <div>
+                        <span class="metric-number metric-text">Governance & Compliance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="7 13 12 18 17 13"/><polyline points="7 6 12 11 17 6"/></svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a technology-focused professional with a strong background in <strong>software engineering</strong>, <strong>application security</strong>, and <strong>IT governance</strong>. I specialize in leading high-security, mission-critical software projects for government and enterprise clients across Pakistan.</p>
+                    <p>With hands-on experience in risk assessments, compliance enforcement, secure SDLC, and security operations, I bridge the gap between engineering excellence and regulatory compliance. I translate security and governance requirements into practical, scalable solutions.</p>
+                    <p>Currently serving as <strong>Assistant Manager - Software Engineering & IT</strong> at Pakistan Post Foundation, managing a portfolio worth PKR 600M+ across national-level engagements.</p>
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <h4>Education</h4>
+                        <p><strong>BS Software Engineering</strong></p>
+                        <p>UET Taxila &middot; CGPA: 3.45/4.0</p>
+                        <p class="text-muted">Sept 2021 - May 2025</p>
+                    </div>
+                    <div class="detail-card">
+                        <p><strong>Location:</strong> Islamabad, Pakistan</p>
+                        <p><strong>Email:</strong> abdurraafay19@gmail.com</p>
+                        <p><strong>Phone:</strong> +92 325 070 3020</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Assistant Manager - Software Engineering & IT</h3>
+                                <p class="timeline-company">Pakistan Post Foundation (Press Division) - Islamabad</p>
+                            </div>
+                            <span class="timeline-date">Dec 2025 - Present</span>
+                        </div>
+                        <ul>
+                            <li>Managing an active portfolio of <strong>6 projects</strong> (2 national-level, 4 provincial-level) with a combined worth of <strong>PKR 600M+</strong>, taking full ownership within 2 weeks of joining.</li>
+                            <li>Leading development of high-security, mission-critical enterprise systems including e-Marking platforms and Attendance Management Systems handling sensitive data for <strong>thousands of users daily</strong>.</li>
+                            <li>Managing initiatives for <strong>AIOU, FBISE, KPK Boards, Punjab Boards, PECTAA, and PTCL</strong> with 100% on-time delivery.</li>
+                            <li>Conducting IT risk assessments, control evaluations, and gap analyses aligned with <strong>ISO 27001</strong> and <strong>NIST</strong> standards.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Application Security Consultant</h3>
+                                <p class="timeline-company">Confidential (Leading Australian Fintech Firm)</p>
+                            </div>
+                            <span class="timeline-date">Jul 2025 - Feb 2026</span>
+                        </div>
+                        <ul>
+                            <li>Conducted comprehensive security audits of enterprise fintech platforms including API assessments, source code reviews, and vulnerability analysis.</li>
+                            <li>Performed application-level penetration testing and threat modeling against <strong>OWASP Top 10</strong> attack vectors.</li>
+                            <li>Integrated secure coding practices into the SDLC with cross-functional DevSecOps teams.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Resident Engineer - IT Operations</h3>
+                                <p class="timeline-company">PTCL / Inbox Business Technologies - Islamabad</p>
+                            </div>
+                            <span class="timeline-date">Aug 2025 - Dec 2025</span>
+                        </div>
+                        <ul>
+                            <li>Administered enterprise IT systems and Microsoft ecosystem, led organization-wide OS migration projects across Windows, Linux, and macOS.</li>
+                            <li>Ensured IT security compliance, supporting audit readiness and coordinating incident response.</li>
+                            <li>Deployed enterprise solutions including VoIP, MDM, Jira, Okta, and Google Workspace.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>CyberSecurity Mentor</h3>
+                                <p class="timeline-company">Buildables & UET Taxila</p>
+                            </div>
+                            <span class="timeline-date">Oct 2023 - Apr 2025</span>
+                        </div>
+                        <ul>
+                            <li>Mentored <strong>100+ students</strong> across multiple cohorts in application security, ethical hacking, and threat modeling.</li>
+                            <li>Delivered <strong>15+ hands-on labs</strong> with project-based learning; <strong>80% of mentees</strong> secured cybersecurity roles or advanced certifications.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>CyberSecurity Analyst</h3>
+                                <p class="timeline-company">Central Power Purchasing Agency - Islamabad</p>
+                            </div>
+                            <span class="timeline-date">Jul 2024 - Sep 2024</span>
+                        </div>
+                        <ul>
+                            <li>Hands-on experience in defensive security, threat detection, incident response, and IP/DNS security.</li>
+                            <li>Worked with Darktrace, Infoblox, and Trend Micro Deep Security across the full incident response lifecycle.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>Zero Trust Network Access Lab</h3>
+                    <p>Self-hosted ZTNA solution using OpenZiti and Docker with identity-based encrypted access, micro-segmentation, and least-privilege access via TLS/PKI.</p>
+                    <div class="project-tags">
+                        <span>OpenZiti</span><span>Docker</span><span>TLS/PKI</span><span>Zero Trust</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <a href="https://github.com/Raafay009/PacketProbe" target="_blank" rel="noopener" class="project-link-overlay"></a>
+                    <div class="project-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </div>
+                    <h3>PacketProbe</h3>
+                    <p>Linux-based real-time packet capture and deep packet inspection tool using Python and Scapy for TCP, UDP, HTTP, FTP, and DNS traffic analysis.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>Scapy</span><span>DPI</span><span>Network Security</span>
+                    </div>
+                    <a href="https://github.com/Raafay009/PacketProbe" target="_blank" rel="noopener" class="project-github">View on GitHub &rarr;</a>
+                </div>
+
+                <div class="project-card">
+                    <a href="https://github.com/Raafay009/SMB-Spy" target="_blank" rel="noopener" class="project-link-overlay"></a>
+                    <div class="project-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    </div>
+                    <h3>SMB-Spy</h3>
+                    <p>Cross-platform SMB assessment tool to scan ports 139/445, enumerate shares, and inspect files for hard-coded credentials with Nmap integration.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>Nmap</span><span>SMB</span><span>Security Assessment</span>
+                    </div>
+                    <a href="https://github.com/Raafay009/SMB-Spy" target="_blank" rel="noopener" class="project-github">View on GitHub &rarr;</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+
+                <div class="skill-category">
+                    <h4>Pentesting & Security</h4>
+                    <div class="skill-tags">
+                        <span>Web/Mobile Apps</span><span>APIs</span><span>Active Directory</span><span>Network & Cloud VA</span><span>Source Code Review</span><span>Exploit Dev</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Governance & Compliance</h4>
+                    <div class="skill-tags">
+                        <span>IT Risk Assessment</span><span>Control Evaluation</span><span>Gap Analysis</span><span>ISO 27001</span><span>NIST</span><span>OWASP</span><span>Audit Support</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Cloud & Network Security</h4>
+                    <div class="skill-tags">
+                        <span>AWS</span><span>GCP</span><span>DNS Security</span><span>Wireshark</span><span>Snort</span><span>SIEM/SOC</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Programming & Scripting</h4>
+                    <div class="skill-tags">
+                        <span>Python</span><span>C++</span><span>Java</span><span>x86/ARM Assembly</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Tools & Platforms</h4>
+                    <div class="skill-tags">
+                        <span>Burp Suite</span><span>OWASP ZAP</span><span>Nikto</span><span>SQLmap</span><span>Nmap</span><span>Metasploit</span><span>Aircrack-ng</span><span>Darktrace</span><span>Ghidra</span><span>IDA Pro</span><span>x64dbg</span><span>Snyk</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 class="subsection-title">Leadership & Management</h3>
+            <div class="leadership-grid">
+
+                <div class="leadership-card">
+                    <div class="leadership-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    </div>
+                    <h4>Project Management</h4>
+                    <p>End-to-end delivery of 6+ concurrent projects across government and enterprise clients. Requirements gathering, sprint planning, stakeholder management, and 100% on-time delivery track record.</p>
+                </div>
+
+                <div class="leadership-card">
+                    <div class="leadership-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                    </div>
+                    <h4>Product & Growth</h4>
+                    <p>Owning growth experiments end-to-end &mdash; hypothesis, design, execution, analysis. Running A/B tests, digging into product data at scale, building analytics infrastructure, and identifying retention and activation levers. Shipping changes directly with engineering, not just recommending them.</p>
+                </div>
+
+                <div class="leadership-card">
+                    <div class="leadership-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h4>Cross-Functional Leadership</h4>
+                    <p>Leading engineering, security, and operations teams across multiple organizations. Coordinating between technical and non-technical stakeholders to align delivery with business goals.</p>
+                </div>
+
+                <div class="leadership-card">
+                    <div class="leadership-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <h4>Mentorship & Public Speaking</h4>
+                    <p>Mentored 100+ students in cybersecurity. Delivered workshops, webinars, and panel talks at NUST, UET Taxila, and industry events. Building the next generation of security professionals.</p>
+                </div>
+
+                <div class="leadership-card">
+                    <div class="leadership-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                    </div>
+                    <h4>Pressure & Crisis Management</h4>
+                    <p>Thriving under high-stakes deadlines with nationally significant systems. Managing incident response, production emergencies, and exam-season operations affecting millions.</p>
+                </div>
+
+                <div class="leadership-card">
+                    <div class="leadership-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h4>Governance & Compliance</h4>
+                    <p>Driving IT governance frameworks, audit readiness, and regulatory compliance across ISO 27001, NIST, and OWASP standards for government and enterprise clients.</p>
+                </div>
+
+                <div class="leadership-card">
+                    <div class="leadership-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h4>AI-Powered Execution</h4>
+                    <p>Using AI aggressively to move 5x faster than traditional workflows. From analytics infrastructure and event tracking to dashboards, alerting, and rapid prototyping &mdash; leveraging AI to accelerate every stage of delivery.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <div class="cert-badge">CAP</div>
+                    <div>
+                        <h4>Certified AppSec Practitioner</h4>
+                        <p>The SecOps Group &middot; May 2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge">CNSP</div>
+                    <div>
+                        <h4>Certified Network Security Practitioner</h4>
+                        <p>The SecOps Group &middot; Jun 2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge">ACP</div>
+                    <div>
+                        <h4>APIsec Certified Practitioner</h4>
+                        <p>APISEC University &middot; Apr 2025</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-badge">CSIL</div>
+                    <div>
+                        <h4>Certified CSI Linux Investigator</h4>
+                        <p>CSI Linux &middot; May 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community & Volunteering Section -->
+    <section class="section section-alt" id="community">
+        <div class="container">
+            <h2 class="section-title">Community & Volunteering</h2>
+            <div class="community-grid">
+
+                <div class="community-card">
+                    <div class="community-banner speaking"></div>
+                    <div class="community-body">
+                        <div class="community-meta">
+                            <div class="community-icon speaking">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg>
+                            </div>
+                            <span class="community-type-label">Speaking &middot; Nov 2025</span>
+                        </div>
+                        <h3>Panelist - Career Launchpad Cohort 8</h3>
+                        <p class="community-org">NUST, Islamabad</p>
+                        <p>Invited as an alumni panelist at NUST. Spoke about surviving the first few months at your first job &mdash; workplace dynamics, communication, and growing intentionally.</p>
+                        <div class="community-quote">"Your background doesn't define you. You just need to start!"</div>
+                        <a href="https://www.linkedin.com/posts/ma-raafay_acheivement-careerlaunchpad-corporate-activity-7429547698573172736-3Wmu" target="_blank" rel="noopener" class="community-link">View on LinkedIn &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="community-card">
+                    <div class="community-banner mentoring"></div>
+                    <div class="community-body">
+                        <div class="community-meta">
+                            <div class="community-icon mentoring">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <span class="community-type-label">Mentoring &middot; Aug - Nov 2025</span>
+                        </div>
+                        <h3>Cybersecurity Mentor - Buildables Fellowship</h3>
+                        <p class="community-org">Buildables</p>
+                        <p>Mentored 5 fellows in a project-first, hands-on cybersecurity program. All mentees went beyond expectations, pushing beyond their comfort zones.</p>
+                        <div class="community-quote">"Learning is most effective when it's collaborative and shared."</div>
+                        <a href="https://www.linkedin.com/posts/ma-raafay_cybersecurity-mentorship-buildables-activity-7423732973281103872-Mg2U" target="_blank" rel="noopener" class="community-link">View on LinkedIn &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="community-card">
+                    <div class="community-banner speaking"></div>
+                    <div class="community-body">
+                        <div class="community-meta">
+                            <div class="community-icon speaking">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg>
+                            </div>
+                            <span class="community-type-label">Speaking &middot; 2025</span>
+                        </div>
+                        <h3>Career Counseling - Cyber Security & Software Engineering</h3>
+                        <p class="community-org">Sir Syed High School & College, Wah Cantt (representing UET Taxila)</p>
+                        <p>Delivered a career counseling session covering the academic journey in Software Engineering and practical cybersecurity skills with a roadmap for excelling both academically and professionally.</p>
+                        <div class="community-quote">"Do the best you can until you know better. Then when you know better, do better." &mdash; Maya Angelou</div>
+                        <a href="https://www.linkedin.com/posts/ma-raafay_softwareabrengineering-cybersecurity-counseling-activity-7240372970500616193-ESHB" target="_blank" rel="noopener" class="community-link">View on LinkedIn &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="community-card">
+                    <div class="community-banner workshop"></div>
+                    <div class="community-body">
+                        <div class="community-meta">
+                            <div class="community-icon workshop">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                            </div>
+                            <span class="community-type-label">Webinar &middot; Jun 2024</span>
+                        </div>
+                        <h3>Mastering Advanced Cloud Security: MSAL, Azure & Azure AD</h3>
+                        <p class="community-org">Microsoft Learn Student Ambassadors, UET Taxila</p>
+                        <p>Delivered a webinar on advanced cloud security targeting Microsoft Authentication Libraries (MSAL), Azure, and Azure Active Directory from a security perspective.</p>
+                        <a href="https://www.linkedin.com/posts/ma-raafay_mlsa-studentambassadors-cybersecurity-activity-7209583868058730498-EJez" target="_blank" rel="noopener" class="community-link">View on LinkedIn &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="community-card">
+                    <div class="community-banner workshop"></div>
+                    <div class="community-body">
+                        <div class="community-meta">
+                            <div class="community-icon workshop">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                            </div>
+                            <span class="community-type-label">Workshop</span>
+                        </div>
+                        <h3>LinkedIn Masterclass: Basics to Advanced</h3>
+                        <p class="community-org">SoftDesk, UET Taxila</p>
+                        <p>Delivered a hands-on workshop on LinkedIn optimization, personal branding, networking strategies, and advanced job hunting techniques to SE students.</p>
+                        <a href="https://www.linkedin.com/posts/ma-raafay_linkedin-workshop-personalbranding-activity-7258127660449484800-0Il8" target="_blank" rel="noopener" class="community-link">View on LinkedIn &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="community-card">
+                    <div class="community-banner volunteer"></div>
+                    <div class="community-body">
+                        <div class="community-meta">
+                            <div class="community-icon volunteer">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                            </div>
+                            <span class="community-type-label">Volunteering</span>
+                        </div>
+                        <h3>Future Fest 2K24, DevFest '22 & Google Crowdsource</h3>
+                        <p class="community-org">Future Fest (Lahore) &middot; GDG Cloud Islamabad &middot; Google</p>
+                        <p>Speaker & Stage Management volunteer at Future Fest 2K24. Student Volunteer at Google DevFest '22. Google Crowdsource Contributor (Apr - Jul 2023).</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="section" id="blog">
+        <div class="container">
+            <h2 class="section-title">Blog & Writing</h2>
+            <p class="section-desc">I write about DNS security, network defense, and cybersecurity on Medium.</p>
+            <div class="blog-grid">
+
+                <article class="blog-card">
+                    <div class="blog-tag">DNS</div>
+                    <h3>An Advanced Overview of DNS Architecture</h3>
+                    <p>A comprehensive deep-dive into the DNS ecosystem covering server types, address resolution, lookup command syntax, and complex networking concepts explained in accessible language.</p>
+                    <a href="https://medium.com/@abdurraafay/an-advanced-overview-of-dns-architecture-8e32229b6752" target="_blank" rel="noopener" class="blog-link">Read More &rarr;</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-tag">DNSSEC</div>
+                    <h3>Understanding DNSSEC: Basics to Advanced Concepts</h3>
+                    <p>Exploring DNSSEC as a set of protocols that adds a layer of security to DNS by enabling authentication of responses, protecting against spoofing and cache poisoning attacks.</p>
+                    <a href="https://medium.com/@abdurraafay/understanding-dnssec-basics-to-advanced-concepts-d3e748715bfa" target="_blank" rel="noopener" class="blog-link">Read More &rarr;</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-tag">Offensive Security</div>
+                    <h3>DNS Tunneling for Real-Time Control Attacks: VNC or SSH Over DNS</h3>
+                    <p>How DNS tunneling encapsulates data within DNS queries to create covert communication channels, bypassing firewalls for real-time control via VNC or SSH.</p>
+                    <a href="https://medium.com/@abdurraafay/dns-tunneling-for-real-time-control-attacks-vnc-or-ssh-over-dns-69f4210abd09" target="_blank" rel="noopener" class="blog-link">Read More &rarr;</a>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-tag">DNS Security</div>
+                    <h3>Inner Workings of DNS Cache Poisoning, Kaminsky and SADDNS Attacks</h3>
+                    <p>Exploring DNS cache poisoning vulnerabilities and their evolution &mdash; how attackers insert false information into resolver caches to redirect users to malicious destinations.</p>
+                    <a href="https://medium.com/@abdurraafay/inner-workings-of-dns-cache-poisoning-kaminsky-and-saddns-attacks-80bc133e6a08" target="_blank" rel="noopener" class="blog-link">Read More &rarr;</a>
+                </article>
+
+            </div>
+            <div class="blog-cta">
+                <a href="https://medium.com/@abdurraafay" target="_blank" rel="noopener" class="btn btn-outline">
+                    View All on Medium &rarr;
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-desc">Interested in working together or have a question? Feel free to reach out.</p>
+            <div class="contact-grid">
+                <a href="mailto:abdurraafay19@gmail.com" class="contact-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <h4>Email</h4>
+                    <p>abdurraafay19@gmail.com</p>
+                </a>
+                <a href="https://linkedin.com/in/ma-raafay" target="_blank" rel="noopener" class="contact-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    <h4>LinkedIn</h4>
+                    <p>linkedin.com/in/ma-raafay</p>
+                </a>
+                <a href="https://github.com/Raafay009" target="_blank" rel="noopener" class="contact-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    <h4>GitHub</h4>
+                    <p>github.com/Raafay009</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Muhammad Abdur Raafay. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
